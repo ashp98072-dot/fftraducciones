@@ -103,19 +103,48 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="brand brand-footer">
-        <img src="assets/logo.svg" alt="F&F Traducciones" class="brand-logo" width="280" height="140" />
-        <span class="brand-text">
-          <small data-i18n="brand.region">Centroamérica</small>
-        </span>
-      </div>
-      <div class="footer-meta">
-        <div class="footer-social">
-          <a href="mailto:fyftraducciones@gmail.com">fyftraducciones@gmail.com</a>
-          <a href="https://www.facebook.com/profile.php?id=100041234743629" target="_blank" rel="noopener noreferrer" data-i18n="footer.facebook">Facebook</a>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand brand-footer">
+            <img src="assets/logo.svg" alt="F&F Traducciones" class="brand-logo" width="280" height="140" />
+          </a>
+          <p class="footer-tagline" data-i18n="footer.tagline">Traducción e interpretación profesional inglés ↔ español en Centroamérica.</p>
         </div>
+
+        <div class="footer-col">
+          <h3 data-i18n="footer.navTitle">Navegación</h3>
+          <nav class="footer-nav" aria-label="Pie de página">
+            <a href="index.html" data-i18n="nav.home">Inicio</a>
+            <a href="nosotros.html" data-i18n="nav.about">Sobre Nosotros</a>
+            <a href="servicios.html" data-i18n="nav.services">Servicios</a>
+            <a href="cotizacion.html" data-i18n="nav.quote">Cotización</a>
+            <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h3 data-i18n="footer.contactTitle">Contacto</h3>
+          <ul class="footer-contact">
+            <li>
+              <span data-i18n="contact.emailLabel">Correo</span>
+              <a href="mailto:fyftraducciones@gmail.com">fyftraducciones@gmail.com</a>
+            </li>
+            <li>
+              <span data-i18n="contact.facebookLabel">Facebook</span>
+              <a href="https://www.facebook.com/profile.php?id=100041234743629" target="_blank" rel="noopener noreferrer">F&amp;F Traducciones</a>
+            </li>
+            <li>
+              <span data-i18n="footer.coverageLabel">Cobertura</span>
+              <strong data-i18n="footer.coverage">GT · SV · CR · PA</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
         <p data-i18n="footer.copy">© 2026 F&amp;F Traducciones Centroamérica. Demo informativo.</p>
+        <a href="cotizacion.html" class="btn btn-sm footer-cta" data-i18n="nav.cta">Cotizar</a>
       </div>
     </div>
   </footer>
