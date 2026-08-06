@@ -68,10 +68,10 @@ const translations = {
     "contact.body":
       "Escríbenos y cuéntanos qué necesitas. Estamos listos para ayudarte en toda Centroamérica.",
     "contact.emailLabel": "Correo",
-    "contact.emailNote": "Placeholder — pendiente de confirmar",
-    "contact.phoneLabel": "Teléfono / WhatsApp",
-    "contact.phone": "Pendiente",
-    "contact.phoneNote": "Se actualizará con el número del cliente",
+    "contact.emailNote": "Respuesta a cotizaciones y consultas",
+    "contact.facebookLabel": "Facebook",
+    "contact.facebookNote": "Síguenos y envíanos un mensaje",
+    "footer.facebook": "Facebook",
     "footer.copy": "© 2026 F&F Traducciones Centroamérica. Demo informativo.",
   },
   en: {
@@ -143,10 +143,10 @@ const translations = {
     "contact.body":
       "Write to us and tell us what you need. We're ready to help across Central America.",
     "contact.emailLabel": "Email",
-    "contact.emailNote": "Placeholder — pending confirmation",
-    "contact.phoneLabel": "Phone / WhatsApp",
-    "contact.phone": "Pending",
-    "contact.phoneNote": "Will be updated with the client's number",
+    "contact.emailNote": "Replies for quotes and inquiries",
+    "contact.facebookLabel": "Facebook",
+    "contact.facebookNote": "Follow us and send a message",
+    "footer.facebook": "Facebook",
     "footer.copy": "© 2026 F&F Traducciones Central America. Informational demo.",
   },
 };
