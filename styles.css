@@ -1,14 +1,14 @@
 :root {
-  --ink: #0a2c33;
-  --ink-soft: #3d5c64;
-  --foam: #f3fafb;
-  --foam-2: #dff3f6;
-  --leaf: #2aabb0;
-  --leaf-deep: #0f7f85;
-  --sun: #7fd4d8;
-  --celeste: #c9ebf2;
-  --line: rgba(10, 44, 51, 0.12);
-  --shadow: 0 24px 60px rgba(10, 44, 51, 0.1);
+  --ink: #0b1f33;
+  --ink-soft: #3d5166;
+  --foam: #f4f8fc;
+  --foam-2: #e4eef7;
+  --leaf: #2a6fad;
+  --leaf-deep: #0f3d6e;
+  --sun: #7eb6d9;
+  --celeste: #c5dff0;
+  --line: rgba(11, 31, 51, 0.12);
+  --shadow: 0 24px 60px rgba(11, 31, 51, 0.12);
   --radius: 18px;
   --font-display: "Literata", Georgia, serif;
   --font-body: "Manrope", system-ui, sans-serif;
@@ -40,9 +40,9 @@ body {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(ellipse 80% 50% at 8% -8%, rgba(201, 235, 242, 0.9), transparent 55%),
-    radial-gradient(ellipse 55% 40% at 92% 0%, rgba(42, 171, 176, 0.14), transparent 50%),
-    linear-gradient(180deg, #eaf7fa 0%, #f7fcfd 42%, #eef8fa 100%);
+    radial-gradient(ellipse 80% 50% at 8% -8%, rgba(197, 223, 240, 0.9), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 92% 0%, rgba(42, 111, 173, 0.14), transparent 50%),
+    linear-gradient(180deg, #eaf2f9 0%, #f7fafc 42%, #eef4f9 100%);
 }
 
 img {
@@ -73,14 +73,14 @@ textarea {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(14px);
-  background: rgba(243, 250, 251, 0.9);
+  background: rgba(244, 248, 252, 0.9);
   border-bottom: 1px solid transparent;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .site-header.is-scrolled {
   border-bottom-color: var(--line);
-  box-shadow: 0 8px 30px rgba(10, 44, 51, 0.06);
+  box-shadow: 0 8px 30px rgba(11, 31, 51, 0.06);
 }
 
 .header-inner {
@@ -109,9 +109,9 @@ textarea {
   object-fit: contain;
   background: #fff;
   border-radius: 14px;
-  border: 1px solid rgba(42, 171, 176, 0.22);
+  border: 1px solid rgba(42, 111, 173, 0.22);
   padding: 0.35rem 0.55rem;
-  box-shadow: 0 6px 18px rgba(15, 127, 133, 0.1);
+  box-shadow: 0 6px 18px rgba(15, 61, 110, 0.1);
 }
 
 .brand-text {
@@ -242,17 +242,17 @@ textarea {
   border-radius: 999px;
   border: none;
   background: linear-gradient(135deg, var(--leaf) 0%, var(--leaf-deep) 100%);
-  color: #f3fafb;
+  color: #f4f8fc;
   font-weight: 700;
   font-size: 0.95rem;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 10px 24px rgba(15, 127, 133, 0.25);
+  box-shadow: 0 10px 24px rgba(15, 61, 110, 0.25);
 }
 
 .btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 14px 28px rgba(15, 127, 133, 0.3);
+  box-shadow: 0 14px 28px rgba(15, 61, 110, 0.3);
 }
 
 .btn-sm {
@@ -265,12 +265,12 @@ textarea {
 .btn-ghost {
   background: transparent;
   color: var(--leaf-deep);
-  border: 1px solid rgba(15, 127, 133, 0.28);
+  border: 1px solid rgba(15, 61, 110, 0.28);
   box-shadow: none;
 }
 
 .btn-ghost:hover {
-  background: rgba(42, 171, 176, 0.1);
+  background: rgba(42, 111, 173, 0.1);
   box-shadow: none;
 }
 
@@ -295,7 +295,7 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.4rem 0.8rem;
   border-radius: 999px;
-  background: rgba(42, 171, 176, 0.14);
+  background: rgba(42, 111, 173, 0.14);
   color: var(--leaf-deep);
   font-size: 0.78rem;
   font-weight: 600;
@@ -365,7 +365,7 @@ textarea {
   width: 48px;
   height: 48px;
   border-radius: 14px;
-  background: rgba(42, 171, 176, 0.14);
+  background: rgba(42, 111, 173, 0.14);
   font-family: var(--font-display);
 }
 
@@ -453,7 +453,7 @@ textarea {
   padding: 1.5rem;
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(10, 44, 51, 0.08);
+  border: 1px solid rgba(11, 31, 51, 0.08);
 }
 
 .preview-card h2 {
@@ -542,7 +542,7 @@ textarea {
 .countries span {
   padding: 0.45rem 0.85rem;
   border-radius: 999px;
-  background: rgba(42, 171, 176, 0.14);
+  background: rgba(42, 111, 173, 0.14);
   color: var(--leaf-deep);
   font-size: 0.85rem;
   font-weight: 600;
@@ -562,13 +562,13 @@ textarea {
   padding: 1.5rem 1.4rem;
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(10, 44, 51, 0.08);
+  border: 1px solid rgba(11, 31, 51, 0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .service:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 36px rgba(10, 44, 51, 0.08);
+  box-shadow: 0 16px 36px rgba(11, 31, 51, 0.08);
 }
 
 .service-num {
@@ -595,17 +595,17 @@ textarea {
 /* Quote */
 .quote {
   background:
-    linear-gradient(135deg, rgba(15, 127, 133, 0.96), rgba(42, 171, 176, 0.9)),
+    linear-gradient(135deg, rgba(15, 61, 110, 0.96), rgba(42, 111, 173, 0.92)),
     var(--leaf-deep);
-  color: #f3fafb;
+  color: #f4f8fc;
 }
 
 .quote .section-label {
-  color: rgba(243, 250, 251, 0.72);
+  color: rgba(244, 248, 252, 0.72);
 }
 
 .quote .quote-copy p:not(.section-label) {
-  color: rgba(243, 250, 251, 0.85);
+  color: rgba(244, 248, 252, 0.85);
 }
 
 .quote-grid {
@@ -624,7 +624,7 @@ textarea {
 .quote-points li {
   position: relative;
   padding-left: 1.2rem;
-  color: rgba(243, 250, 251, 0.9);
+  color: rgba(244, 248, 252, 0.9);
 }
 
 .quote-points li::before {
@@ -667,7 +667,7 @@ textarea {
 .field select,
 .field textarea {
   width: 100%;
-  border: 1px solid rgba(10, 44, 51, 0.16);
+  border: 1px solid rgba(11, 31, 51, 0.16);
   border-radius: 12px;
   padding: 0.75rem 0.85rem;
   background: #fff;
@@ -680,7 +680,7 @@ textarea {
 .field select:focus,
 .field textarea:focus {
   border-color: var(--leaf);
-  box-shadow: 0 0 0 3px rgba(42, 171, 176, 0.18);
+  box-shadow: 0 0 0 3px rgba(42, 111, 173, 0.15);
 }
 
 .field textarea {
@@ -723,12 +723,12 @@ textarea {
   padding: 1.35rem 1.4rem;
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(10, 44, 51, 0.08);
+  border: 1px solid rgba(11, 31, 51, 0.08);
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 a.contact-card:hover {
-  border-color: rgba(42, 171, 176, 0.4);
+  border-color: rgba(42, 111, 173, 0.35);
   transform: translateY(-2px);
 }
 
@@ -754,8 +754,8 @@ a.contact-card:hover {
   margin-top: 1.5rem;
   border-top: 1px solid var(--line);
   background:
-    linear-gradient(180deg, rgba(201, 235, 242, 0.4), rgba(243, 250, 251, 0.96)),
-    #eaf7fa;
+    linear-gradient(180deg, rgba(197, 223, 240, 0.45), rgba(244, 248, 252, 0.96)),
+    #eaf2f9;
   padding: 1.75rem 0 1.1rem;
 }
 
@@ -796,7 +796,7 @@ a.contact-card:hover {
 .footer-chips span {
   padding: 0.3rem 0.65rem;
   border-radius: 999px;
-  background: rgba(42, 171, 176, 0.14);
+  background: rgba(42, 111, 173, 0.14);
   color: var(--leaf-deep);
   font-size: 0.75rem;
   font-weight: 650;
@@ -902,15 +902,15 @@ a.contact-card:hover {
   flex-direction: column;
   gap: 0;
   padding: 0.5rem 1rem 1rem;
-  background: rgba(243, 250, 251, 0.98);
+  background: rgba(244, 248, 252, 0.98);
   border-bottom: 1px solid var(--line);
-  box-shadow: 0 16px 30px rgba(10, 44, 51, 0.08);
+  box-shadow: 0 16px 30px rgba(11, 31, 51, 0.08);
   z-index: 60;
 }
 
 .nav.is-open a {
   padding: 0.85rem 0.4rem;
-  border-bottom: 1px solid rgba(10, 44, 51, 0.06);
+  border-bottom: 1px solid rgba(11, 31, 51, 0.06);
 }
 
 @keyframes floatIn {
