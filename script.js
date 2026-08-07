@@ -26,6 +26,14 @@ const translations = {
     "home.contactTitle": "Empecemos",
     "home.contactBody": "Cuéntanos tu proyecto y recibe una cotización sin compromiso.",
     "home.contactLink": "Solicitar cotización →",
+    "seo.label": "Traducción en Centroamérica",
+    "seo.title": "Traductor e intérprete inglés ↔ español",
+    "seo.body":
+      "En F&F Traducciones ofrecemos servicios de traducción e interpretación profesional inglés-español para empresas e individuos. Si buscas un traductor en Guatemala, El Salvador, Costa Rica, Panamá u otro país de Centroamérica, podemos ayudarte con traducción de documentos, interpretación para eventos y localización de contenidos.",
+    "seo.li1": "Traducción de documentos jurídicos, financieros, médicos, técnicos y corporativos",
+    "seo.li2": "Interpretación simultánea y consecutiva para reuniones, conferencias y seminarios web",
+    "seo.li3": "Localización de sitios web, software y material de marketing",
+    "seo.li4": "Corrección de estilo y edición de textos en inglés y español",
     "about.label": "Sobre Nosotros",
     "about.title": "Conectamos negocios y personas a través del lenguaje",
     "about.body":
@@ -112,6 +120,14 @@ const translations = {
     "home.contactTitle": "Let's start",
     "home.contactBody": "Tell us about your project and get a no-obligation quote.",
     "home.contactLink": "Request a quote →",
+    "seo.label": "Translation in Central America",
+    "seo.title": "English ↔ Spanish translator and interpreter",
+    "seo.body":
+      "At F&F Traducciones we provide professional English-Spanish translation and interpretation for businesses and individuals. If you need a translator in Guatemala, El Salvador, Costa Rica, Panama, or elsewhere in Central America, we can help with document translation, event interpretation, and content localization.",
+    "seo.li1": "Translation of legal, financial, medical, technical, and corporate documents",
+    "seo.li2": "Simultaneous and consecutive interpretation for meetings, conferences, and webinars",
+    "seo.li3": "Website, software, and marketing localization",
+    "seo.li4": "Proofreading and editing in English and Spanish",
     "about.label": "About Us",
     "about.title": "Connecting businesses and people through language",
     "about.body":
@@ -175,18 +191,18 @@ const translations = {
 
 const pageTitles = {
   es: {
-    inicio: "Empresa de Traducción e Interpretación | F&F Traducciones Centroamérica",
-    nosotros: "Sobre Nosotros | Empresa de Traducciones Centroamérica | F&F",
-    servicios: "Servicios de Traducción e Interpretación Inglés-Español | F&F",
-    cotizacion: "Cotización de Traducción e Interpretación | F&F Traducciones",
-    contacto: "Contacto | Traductor Inglés Español Centroamérica | F&F",
+    inicio: "Traductor e Intérprete Inglés Español Centroamérica | F&F Traducciones",
+    nosotros: "Sobre Nosotros | Traductor Profesional Inglés Español | F&F Traducciones",
+    servicios: "Servicios de Traducción e Interpretación Inglés Español | F&F",
+    cotizacion: "Cotización de Traducción e Interpretación | Traductor Centroamérica",
+    contacto: "Contacto Traductor Inglés Español Centroamérica | F&F Traducciones",
   },
   en: {
-    inicio: "Translation & Interpretation Company | F&F Traducciones Central America",
-    nosotros: "About Us | Translation Company Central America | F&F",
+    inicio: "English-Spanish Translator & Interpreter Central America | F&F Traducciones",
+    nosotros: "About Us | Professional English-Spanish Translator | F&F Traducciones",
     servicios: "English-Spanish Translation & Interpretation Services | F&F",
-    cotizacion: "Translation & Interpretation Quote | F&F Traducciones",
-    contacto: "Contact | English-Spanish Translator Central America | F&F",
+    cotizacion: "Translation & Interpretation Quote | Translator Central America",
+    contacto: "Contact English-Spanish Translator Central America | F&F Traducciones",
   },
 };
 

@@ -104,14 +104,13 @@ textarea {
 .brand-logo {
   width: auto;
   height: clamp(52px, 12vw, 78px);
-  max-width: min(52vw, 180px);
+  max-width: min(52vw, 200px);
   min-width: 0;
   object-fit: contain;
   background: #fff;
-  border-radius: 14px;
-  border: 1px solid rgba(42, 111, 173, 0.22);
-  padding: 0.35rem 0.55rem;
-  box-shadow: 0 6px 18px rgba(15, 61, 110, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(11, 31, 51, 0.1);
+  padding: 0.25rem 0.45rem;
 }
 
 .brand-text {
@@ -442,6 +441,36 @@ textarea {
 
 .home-preview {
   padding-top: 1rem;
+}
+
+.seo-region {
+  padding-top: 1.5rem;
+}
+
+.seo-list {
+  margin: 1.35rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.seo-list li {
+  position: relative;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.seo-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--leaf);
 }
 
 .preview-grid {
@@ -1011,6 +1040,6 @@ a.contact-card:hover {
 @media (min-width: 1100px) {
   .brand-logo {
     height: 78px;
-    max-width: 200px;
+    max-width: 220px;
   }
 }
