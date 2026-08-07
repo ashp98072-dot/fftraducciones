@@ -7,7 +7,6 @@ const translations = {
     "nav.quote": "Cotización",
     "nav.contact": "Contacto",
     "nav.cta": "Cotizar",
-    "demo.banner": "Vista demo · Sitio informativo sin pasarela de pagos",
     "hero.brand": "F&F Traducciones",
     "hero.eyebrow": "Belice · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panamá",
     "hero.title": "Traducción e Interpretación Profesional Inglés ↔ Español",
@@ -100,7 +99,6 @@ const translations = {
     "nav.quote": "Get a Quote",
     "nav.contact": "Contact",
     "nav.cta": "Quote",
-    "demo.banner": "Demo view · Informational site with no payment gateway",
     "hero.brand": "F&F Traducciones",
     "hero.eyebrow": "Belize · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panama",
     "hero.title": "Professional English ↔ Spanish Translation & Interpretation",
@@ -218,16 +216,6 @@ const form = document.getElementById("quoteForm");
 const formNote = document.getElementById("formNote");
 const page = document.body.dataset.page || "inicio";
 
-function ensureDemoBanner() {
-  if (document.querySelector(".demo-banner")) return;
-  const banner = document.createElement("div");
-  banner.className = "demo-banner";
-  banner.setAttribute("role", "status");
-  banner.innerHTML = `<strong>Demo</strong><span data-i18n="demo.banner"></span>`;
-  document.body.prepend(banner);
-  document.body.classList.add("has-demo-banner");
-}
-
 function applyTranslations(lang) {
   const dict = translations[lang];
   document.documentElement.lang = lang;
@@ -303,8 +291,6 @@ function buildMailto(formEl) {
   const body = encodeURIComponent(lines.join("\n"));
   return `mailto:${QUOTE_EMAIL}?subject=${subject}&body=${body}`;
 }
-
-ensureDemoBanner();
 
 langToggle.addEventListener("click", () => {
   currentLang = currentLang === "es" ? "en" : "es";

@@ -35,36 +35,6 @@ body {
   overflow-x: clip;
 }
 
-body.has-demo-banner {
-  padding-top: 2.1rem;
-}
-
-.demo-banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 80;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.65rem;
-  min-height: 2.1rem;
-  padding: 0.35rem 1rem;
-  background: linear-gradient(90deg, #0f3d6e, #2a6fad);
-  color: #f4f8fc;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-.demo-banner strong {
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .page-bg {
   position: fixed;
   inset: 0;
@@ -106,10 +76,6 @@ textarea {
   background: rgba(244, 248, 252, 0.9);
   border-bottom: 1px solid transparent;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-body.has-demo-banner .site-header {
-  top: 2.1rem;
 }
 
 .site-header.is-scrolled {
