@@ -91,7 +91,6 @@ const translations = {
     "footer.response": "Respuesta ágil por correo o Facebook",
     "footer.facebook": "Facebook",
     "footer.copy": "© 2026 F&F Traducciones Centroamérica. Todos los derechos reservados.",
-    "footer.note": "Sitio informativo · Sin pasarela de pagos",
   },
   en: {
     "brand.region": "Central America",
@@ -185,7 +184,6 @@ const translations = {
     "footer.response": "Fast replies by email or Facebook",
     "footer.facebook": "Facebook",
     "footer.copy": "© 2026 F&F Traducciones Central America. All rights reserved.",
-    "footer.note": "Informational site · No payment gateway",
   },
 };
 
