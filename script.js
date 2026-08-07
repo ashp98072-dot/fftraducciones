@@ -175,18 +175,18 @@ const translations = {
 
 const pageTitles = {
   es: {
-    inicio: "Inicio | F&F Traducciones",
-    nosotros: "Sobre Nosotros | F&F Traducciones",
-    servicios: "Servicios | F&F Traducciones",
-    cotizacion: "Cotización | F&F Traducciones",
-    contacto: "Contacto | F&F Traducciones",
+    inicio: "Empresa de Traducción e Interpretación | F&F Traducciones Centroamérica",
+    nosotros: "Sobre Nosotros | Empresa de Traducciones Centroamérica | F&F",
+    servicios: "Servicios de Traducción e Interpretación Inglés-Español | F&F",
+    cotizacion: "Cotización de Traducción e Interpretación | F&F Traducciones",
+    contacto: "Contacto | Traductor Inglés Español Centroamérica | F&F",
   },
   en: {
-    inicio: "Home | F&F Traducciones",
-    nosotros: "About Us | F&F Traducciones",
-    servicios: "Services | F&F Traducciones",
-    cotizacion: "Get a Quote | F&F Traducciones",
-    contacto: "Contact | F&F Traducciones",
+    inicio: "Translation & Interpretation Company | F&F Traducciones Central America",
+    nosotros: "About Us | Translation Company Central America | F&F",
+    servicios: "English-Spanish Translation & Interpretation Services | F&F",
+    cotizacion: "Translation & Interpretation Quote | F&F Traducciones",
+    contacto: "Contact | English-Spanish Translator Central America | F&F",
   },
 };
 

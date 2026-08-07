@@ -1,0 +1,24 @@
+{
+  "name": "F&F Traducciones Centroamérica",
+  "short_name": "F&F Traducciones",
+  "description": "Empresa de traducción e interpretación inglés-español en Centroamérica.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f8fc",
+  "theme_color": "#0f3d6e",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
