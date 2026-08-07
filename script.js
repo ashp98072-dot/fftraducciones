@@ -7,6 +7,8 @@ const translations = {
     "nav.quote": "Cotización",
     "nav.contact": "Contacto",
     "nav.cta": "Cotizar",
+    "demo.banner": "Vista demo · Sitio informativo sin pasarela de pagos",
+    "hero.brand": "F&F Traducciones",
     "hero.eyebrow": "Belice · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panamá",
     "hero.title": "Traducción e Interpretación Profesional Inglés ↔ Español",
     "hero.subtitle":
@@ -26,6 +28,10 @@ const translations = {
     "home.contactTitle": "Empecemos",
     "home.contactBody": "Cuéntanos tu proyecto y recibe una cotización sin compromiso.",
     "home.contactLink": "Solicitar cotización →",
+    "coverage.label": "Cobertura",
+    "coverage.title": "Presentes en toda Centroamérica",
+    "coverage.body":
+      "Atendemos proyectos de traducción e interpretación para clientes en Belice, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua y Panamá.",
     "about.label": "Sobre Nosotros",
     "about.title": "Conectamos negocios y personas a través del lenguaje",
     "about.body":
@@ -61,8 +67,9 @@ const translations = {
     "form.service.editing": "Corrección / Edición",
     "form.message": "Mensaje o detalles del proyecto",
     "form.submit": "Solicitar cotización",
-    "form.note": "Demo: el formulario no envía datos reales todavía.",
-    "form.success": "¡Gracias! En el demo solo simulamos el envío. Pronto quedará conectado.",
+    "form.note": "Al enviar se abrirá tu correo con el mensaje listo para fyftraducciones@gmail.com.",
+    "form.success": "¡Listo! Se abrió tu cliente de correo con la cotización. Si no se abrió, escríbenos a fyftraducciones@gmail.com.",
+    "form.mailSubject": "Cotización F&F Traducciones",
     "contact.label": "Contacto",
     "contact.title": "Hablemos de tu próximo proyecto",
     "contact.body":
@@ -93,6 +100,8 @@ const translations = {
     "nav.quote": "Get a Quote",
     "nav.contact": "Contact",
     "nav.cta": "Quote",
+    "demo.banner": "Demo view · Informational site with no payment gateway",
+    "hero.brand": "F&F Traducciones",
     "hero.eyebrow": "Belize · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panama",
     "hero.title": "Professional English ↔ Spanish Translation & Interpretation",
     "hero.subtitle":
@@ -112,6 +121,10 @@ const translations = {
     "home.contactTitle": "Let's start",
     "home.contactBody": "Tell us about your project and get a no-obligation quote.",
     "home.contactLink": "Request a quote →",
+    "coverage.label": "Coverage",
+    "coverage.title": "Present across Central America",
+    "coverage.body":
+      "We handle translation and interpretation projects for clients in Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama.",
     "about.label": "About Us",
     "about.title": "Connecting businesses and people through language",
     "about.body":
@@ -147,8 +160,9 @@ const translations = {
     "form.service.editing": "Proofreading / Editing",
     "form.message": "Project details",
     "form.submit": "Request a quote",
-    "form.note": "Demo: the form does not send real data yet.",
-    "form.success": "Thanks! This demo only simulates submission. It will be connected soon.",
+    "form.note": "Submitting opens your email client with a message ready for fyftraducciones@gmail.com.",
+    "form.success": "Done! Your email app opened with the quote request. If it didn't, write to fyftraducciones@gmail.com.",
+    "form.mailSubject": "Quote request — F&F Traducciones",
     "contact.label": "Contact",
     "contact.title": "Let's talk about your next project",
     "contact.body":
@@ -190,6 +204,8 @@ const pageTitles = {
   },
 };
 
+const QUOTE_EMAIL = "fyftraducciones@gmail.com";
+
 const storedLang = localStorage.getItem("ff-lang");
 let currentLang = storedLang === "en" || storedLang === "es" ? storedLang : "es";
 
@@ -201,6 +217,16 @@ const header = document.querySelector(".site-header");
 const form = document.getElementById("quoteForm");
 const formNote = document.getElementById("formNote");
 const page = document.body.dataset.page || "inicio";
+
+function ensureDemoBanner() {
+  if (document.querySelector(".demo-banner")) return;
+  const banner = document.createElement("div");
+  banner.className = "demo-banner";
+  banner.setAttribute("role", "status");
+  banner.innerHTML = `<strong>Demo</strong><span data-i18n="demo.banner"></span>`;
+  document.body.prepend(banner);
+  document.body.classList.add("has-demo-banner");
+}
 
 function applyTranslations(lang) {
   const dict = translations[lang];
@@ -217,6 +243,68 @@ function applyTranslations(lang) {
   document.title = pageTitles[lang][page] || pageTitles[lang].inicio;
   localStorage.setItem("ff-lang", lang);
 }
+
+function setupReveal() {
+  const nodes = document.querySelectorAll(".reveal");
+  if (!nodes.length) return;
+
+  if (!("IntersectionObserver" in window)) {
+    nodes.forEach((el) => el.classList.add("is-visible"));
+    return;
+  }
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        io.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+  );
+
+  nodes.forEach((el) => io.observe(el));
+}
+
+function optionLabel(select, value) {
+  const opt = [...select.options].find((o) => o.value === value);
+  return opt ? opt.textContent.trim() : value;
+}
+
+function buildMailto(formEl) {
+  const data = new FormData(formEl);
+  const name = String(data.get("name") || "").trim();
+  const email = String(data.get("email") || "").trim();
+  const phone = String(data.get("phone") || "").trim();
+  const country = String(data.get("country") || "").trim();
+  const service = String(data.get("service") || "").trim();
+  const message = String(data.get("message") || "").trim();
+
+  const countrySelect = formEl.querySelector("#country");
+  const serviceSelect = formEl.querySelector("#service");
+  const countryLabel = countrySelect ? optionLabel(countrySelect, country) : country;
+  const serviceLabel = serviceSelect ? optionLabel(serviceSelect, service) : service;
+
+  const lines = [
+    currentLang === "es" ? "Solicitud de cotización:" : "Quote request:",
+    "",
+    `${currentLang === "es" ? "Nombre" : "Name"}: ${name}`,
+    `${currentLang === "es" ? "Correo" : "Email"}: ${email}`,
+    `${currentLang === "es" ? "Teléfono / WhatsApp" : "Phone / WhatsApp"}: ${phone || "—"}`,
+    `${currentLang === "es" ? "País" : "Country"}: ${countryLabel}`,
+    `${currentLang === "es" ? "Servicio" : "Service"}: ${serviceLabel}`,
+    "",
+    currentLang === "es" ? "Detalles del proyecto:" : "Project details:",
+    message,
+  ];
+
+  const subject = encodeURIComponent(translations[currentLang]["form.mailSubject"]);
+  const body = encodeURIComponent(lines.join("\n"));
+  return `mailto:${QUOTE_EMAIL}?subject=${subject}&body=${body}`;
+}
+
+ensureDemoBanner();
 
 langToggle.addEventListener("click", () => {
   currentLang = currentLang === "es" ? "en" : "es";
@@ -246,10 +334,11 @@ if (form) {
       form.reportValidity();
       return;
     }
+    window.location.href = buildMailto(form);
     formNote.textContent = translations[currentLang]["form.success"];
     formNote.classList.add("is-success");
-    form.reset();
   });
 }
 
 applyTranslations(currentLang);
+setupReveal();
