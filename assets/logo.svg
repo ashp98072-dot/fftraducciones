@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="F&amp;F Traducciones">
-  <rect width="640" height="320" fill="#ffffff"/>
-  <text x="320" y="145" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="110" font-weight="700" fill="#000000">F&amp;F</text>
-  <text x="320" y="230" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="54" font-weight="700" fill="#000000">Traducciones</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-label="F&amp;F Traducciones">
+  <rect width="320" height="160" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="296" height="136" rx="10" fill="none" stroke="#c5dff0" stroke-width="2"/>
+  <text x="160" y="72" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="58" font-weight="700" fill="#0b1f33">F&amp;F</text>
+  <text x="160" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="28" fill="#0f3d6e">Traducciones</text>
 </svg>
