@@ -444,6 +444,70 @@ textarea {
   padding-top: 1rem;
 }
 
+.seo-region {
+  padding-top: 1.5rem;
+}
+
+.seo-list {
+  margin: 1.35rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.seo-list li {
+  position: relative;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.seo-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--leaf);
+}
+
+.faq {
+  padding-top: 1rem;
+}
+
+.faq-list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  border: 1px solid rgba(11, 31, 51, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 0.85rem 1rem;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--ink);
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item p {
+  margin: 0.7rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+}
+
 .preview-grid {
   display: grid;
   gap: 1rem;
