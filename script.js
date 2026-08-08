@@ -29,11 +29,31 @@ const translations = {
     "seo.label": "Traducción en Centroamérica",
     "seo.title": "Traductor e intérprete inglés ↔ español",
     "seo.body":
-      "En F&F Traducciones ofrecemos servicios de traducción e interpretación profesional inglés-español para empresas e individuos. Si buscas un traductor en Guatemala, El Salvador, Costa Rica, Panamá u otro país de Centroamérica, podemos ayudarte con traducción de documentos, interpretación para eventos y localización de contenidos.",
+      "En F&F Traducciones (también buscada como FyF Traducciones) ofrecemos servicios de traducción e interpretación profesional inglés-español para empresas e individuos. Si buscas un traductor en Guatemala, El Salvador, Costa Rica, Panamá u otro país de Centroamérica, podemos ayudarte con traducción de documentos, interpretación para eventos y localización de contenidos.",
     "seo.li1": "Traducción de documentos jurídicos, financieros, médicos, técnicos y corporativos",
     "seo.li2": "Interpretación simultánea y consecutiva para reuniones, conferencias y seminarios web",
     "seo.li3": "Localización de sitios web, software y material de marketing",
     "seo.li4": "Corrección de estilo y edición de textos en inglés y español",
+    "faq.label": "Preguntas frecuentes",
+    "faq.title": "¿Buscas un traductor o servicios de traducción?",
+    "faq.q1": "¿Qué hace F&F Traducciones?",
+    "faq.a1":
+      "Somos una empresa de traducción e interpretación inglés ↔ español. Ayudamos a empresas e individuos con traducción de documentos, interpretación para eventos y localización de contenidos en Centroamérica.",
+    "faq.q2": "¿Atienden en Guatemala y otros países?",
+    "faq.a2":
+      "Sí. Atendemos desde Guatemala y trabajamos con clientes en El Salvador, Costa Rica, Panamá, Belice, Honduras y Nicaragua.",
+    "faq.q3": "¿Cómo solicito una cotización de traducción?",
+    "faq.a3":
+      "Puedes usar el formulario de cotización, escribir a fyftraducciones@gmail.com o llamar al 2509 0049. Te respondemos con una propuesta clara y sin compromiso.",
+    "faq.q4": "¿También aparecen como FyF Traducciones?",
+    "faq.a4":
+      "Sí. F&F Traducciones y FyF Traducciones se refieren a la misma empresa de traducción e interpretación.",
+    "contact.phoneLabel": "Teléfono",
+    "contact.phoneNote": "Guatemala · +502 2509 0049",
+    "contact.addressLabel": "Dirección",
+    "contact.address":
+      "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Ciudad de Guatemala 01013",
+    "contact.addressNote": "Traductor en Guatemala · Cobertura Centroamérica",
     "about.label": "Sobre Nosotros",
     "about.title": "Conectamos negocios y personas a través del lenguaje",
     "about.body":
@@ -122,11 +142,31 @@ const translations = {
     "seo.label": "Translation in Central America",
     "seo.title": "English ↔ Spanish translator and interpreter",
     "seo.body":
-      "At F&F Traducciones we provide professional English-Spanish translation and interpretation for businesses and individuals. If you need a translator in Guatemala, El Salvador, Costa Rica, Panama, or elsewhere in Central America, we can help with document translation, event interpretation, and content localization.",
+      "At F&F Traducciones (also searched as FyF Traducciones) we provide professional English-Spanish translation and interpretation for businesses and individuals. If you need a translator in Guatemala, El Salvador, Costa Rica, Panama, or elsewhere in Central America, we can help with document translation, event interpretation, and content localization.",
     "seo.li1": "Translation of legal, financial, medical, technical, and corporate documents",
     "seo.li2": "Simultaneous and consecutive interpretation for meetings, conferences, and webinars",
     "seo.li3": "Website, software, and marketing localization",
     "seo.li4": "Proofreading and editing in English and Spanish",
+    "faq.label": "Frequently asked questions",
+    "faq.title": "Looking for a translator or translation services?",
+    "faq.q1": "What does F&F Traducciones do?",
+    "faq.a1":
+      "We are an English ↔ Spanish translation and interpretation company. We help businesses and individuals with document translation, event interpretation, and content localization across Central America.",
+    "faq.q2": "Do you serve Guatemala and other countries?",
+    "faq.a2":
+      "Yes. We operate from Guatemala and work with clients in El Salvador, Costa Rica, Panama, Belize, Honduras, and Nicaragua.",
+    "faq.q3": "How do I request a translation quote?",
+    "faq.a3":
+      "Use the quote form, email fyftraducciones@gmail.com, or call 2509 0049. We'll reply with a clear, no-obligation proposal.",
+    "faq.q4": "Are you also known as FyF Traducciones?",
+    "faq.a4":
+      "Yes. F&F Traducciones and FyF Traducciones refer to the same translation and interpretation company.",
+    "contact.phoneLabel": "Phone",
+    "contact.phoneNote": "Guatemala · +502 2509 0049",
+    "contact.addressLabel": "Address",
+    "contact.address":
+      "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Guatemala City 01013",
+    "contact.addressNote": "Translator in Guatemala · Central America coverage",
     "about.label": "About Us",
     "about.title": "Connecting businesses and people through language",
     "about.body":
@@ -189,18 +229,18 @@ const translations = {
 
 const pageTitles = {
   es: {
-    inicio: "Traductor e Intérprete Inglés Español Centroamérica | F&F Traducciones",
-    nosotros: "Sobre Nosotros | Traductor Profesional Inglés Español | F&F Traducciones",
-    servicios: "Servicios de Traducción e Interpretación Inglés Español | F&F",
-    cotizacion: "Cotización de Traducción e Interpretación | Traductor Centroamérica",
-    contacto: "Contacto Traductor Inglés Español Centroamérica | F&F Traducciones",
+    inicio: "F&F Traducciones | Traductor e Intérprete Inglés Español Centroamérica",
+    nosotros: "Sobre Nosotros | F&F Traducciones · Traductor Inglés Español",
+    servicios: "Servicios de Traducción e Interpretación | F&F Traducciones",
+    cotizacion: "Cotización de Traducción | F&F Traducciones Centroamérica",
+    contacto: "Contacto | F&F Traducciones · Traductor en Guatemala",
   },
   en: {
-    inicio: "English-Spanish Translator & Interpreter Central America | F&F Traducciones",
-    nosotros: "About Us | Professional English-Spanish Translator | F&F Traducciones",
-    servicios: "English-Spanish Translation & Interpretation Services | F&F",
-    cotizacion: "Translation & Interpretation Quote | Translator Central America",
-    contacto: "Contact English-Spanish Translator Central America | F&F Traducciones",
+    inicio: "F&F Traducciones | English-Spanish Translator & Interpreter Central America",
+    nosotros: "About Us | F&F Traducciones · English-Spanish Translator",
+    servicios: "Translation & Interpretation Services | F&F Traducciones",
+    cotizacion: "Translation Quote | F&F Traducciones Central America",
+    contacto: "Contact | F&F Traducciones · Translator in Guatemala",
   },
 };
 
