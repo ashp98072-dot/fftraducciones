@@ -109,9 +109,9 @@ textarea {
   object-fit: contain;
   background: #fff;
   border-radius: 14px;
-  border: 1px solid rgba(42, 111, 173, 0.22);
-  padding: 0.35rem 0.55rem;
-  box-shadow: 0 6px 18px rgba(15, 61, 110, 0.1);
+  border: 1px solid rgba(11, 31, 51, 0.12);
+  padding: 0.3rem 0.5rem;
+  box-shadow: 0 6px 18px rgba(11, 31, 51, 0.06);
 }
 
 .brand-text {
