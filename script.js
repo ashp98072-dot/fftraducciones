@@ -8,7 +8,7 @@ const translations = {
     "nav.contact": "Contacto",
     "nav.cta": "Cotización",
     "hero.eyebrow": "Belice · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panamá",
-    "hero.title": "Traducción e Interpretación Profesional Inglés ↔ Español",
+    "hero.title": "Traducción e Interpretación Inglés ↔ Español",
     "hero.subtitle":
       "Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.",
     "hero.cta": "Solicitar cotización",
@@ -117,7 +117,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.cta": "Quote",
     "hero.eyebrow": "Belize · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panama",
-    "hero.title": "Professional English ↔ Spanish Translation & Interpretation",
+    "hero.title": "English ↔ Spanish Translation & Interpretation",
     "hero.subtitle":
       "Accurate and reliable linguistic solutions for businesses and individuals across all of Central America.",
     "hero.cta": "Request a quote",
