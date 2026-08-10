@@ -45,9 +45,6 @@ const translations = {
     "faq.q3": "¿Cómo solicito una cotización de traducción?",
     "faq.a3":
       "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com o llamar al 2509 0049. Le responderemos con una propuesta clara.",
-    "faq.q4": "¿También aparecen como FyF Traducciones?",
-    "faq.a4":
-      "Sí. F&F Traducciones y FyF Traducciones se refieren a la misma empresa de traducción e interpretación.",
     "contact.phoneLabel": "Teléfono",
     "contact.phoneNote": "Guatemala · +502 2509 0049",
     "contact.addressLabel": "Dirección",
