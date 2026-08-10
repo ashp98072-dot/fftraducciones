@@ -10,7 +10,7 @@ const translations = {
     "hero.eyebrow": "Belice · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panamá",
     "hero.title": "Traducción e Interpretación Profesional Inglés ↔ Español",
     "hero.subtitle":
-      "Rompemos las barreras del idioma. Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.",
+      "Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.",
     "hero.cta": "Solicitar cotización",
     "hero.secondary": "Ver servicios",
     "hero.panel": "Precisión técnica, cultural y legal en cada proyecto.",
@@ -124,7 +124,7 @@ const translations = {
     "hero.eyebrow": "Belize · Costa Rica · El Salvador · Guatemala · Honduras · Nicaragua · Panama",
     "hero.title": "Professional English ↔ Spanish Translation & Interpretation",
     "hero.subtitle":
-      "Breaking language barriers. Accurate and reliable linguistic solutions for businesses and individuals across all of Central America.",
+      "Accurate and reliable linguistic solutions for businesses and individuals across all of Central America.",
     "hero.cta": "Request a quote",
     "hero.secondary": "View services",
     "hero.panel": "Technical, cultural, and legal accuracy on every project.",
