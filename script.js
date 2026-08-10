@@ -44,7 +44,7 @@ const translations = {
       "Sí. Atendemos desde Guatemala y trabajamos con clientes en El Salvador, Costa Rica, Panamá, Belice, Honduras y Nicaragua.",
     "faq.q3": "¿Cómo solicito una cotización de traducción?",
     "faq.a3":
-      "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com o llamar al 2509 0049. Le responderemos con una propuesta clara y sin compromiso.",
+      "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com o llamar al 2509 0049. Le responderemos con una propuesta clara.",
     "faq.q4": "¿También aparecen como FyF Traducciones?",
     "faq.a4":
       "Sí. F&F Traducciones y FyF Traducciones se refieren a la misma empresa de traducción e interpretación.",
@@ -71,7 +71,7 @@ const translations = {
     "services.s4.body": "Revisión exhaustiva para garantizar la perfección de sus textos.",
     "quote.label": "Cotización",
     "quote.title": "¿Tiene un proyecto en mente?",
-    "quote.body": "Solicite su cotización. Le responderemos con una propuesta clara y sin compromiso.",
+    "quote.body": "Solicite su cotización. Le responderemos con una propuesta clara.",
     "quote.p1": "Respuesta ágil por correo o WhatsApp",
     "quote.p2": "Cobertura en toda Centroamérica (7 países)",
     "quote.p3": "Inglés ↔ Español",
@@ -158,7 +158,7 @@ const translations = {
       "Yes. We operate from Guatemala and work with clients in El Salvador, Costa Rica, Panama, Belize, Honduras, and Nicaragua.",
     "faq.q3": "How do I request a translation quote?",
     "faq.a3":
-      "Use the quote form, email fyftraducciones@gmail.com, or call 2509 0049. We'll reply with a clear, no-obligation proposal.",
+      "Use the quote form, email fyftraducciones@gmail.com, or call 2509 0049. We'll reply with a clear proposal.",
     "faq.q4": "Are you also known as FyF Traducciones?",
     "faq.a4":
       "Yes. F&F Traducciones and FyF Traducciones refer to the same translation and interpretation company.",
@@ -185,7 +185,7 @@ const translations = {
     "services.s4.body": "Thorough review to ensure absolute accuracy and flow in your documents.",
     "quote.label": "Get a Quote",
     "quote.title": "Have a project in mind?",
-    "quote.body": "Request your quote today. We'll reply with a clear proposal — no commitment.",
+    "quote.body": "Request your quote today. We'll reply with a clear proposal.",
     "quote.p1": "Fast response by email or WhatsApp",
     "quote.p2": "Coverage across all of Central America (7 countries)",
     "quote.p3": "English ↔ Spanish",
