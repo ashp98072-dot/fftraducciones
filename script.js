@@ -141,7 +141,7 @@ const translations = {
     "home.contactBody": "Please complete the form so we can get in touch with you.",
     "home.contactLink": "Request a quote →",
     "seo.label": "Translation in Central America",
-    "seo.title": "English ↔ Spanish translator and interpreter",
+    "seo.title": "Translators in Guatemala and English ↔ Spanish interpreters",
     "seo.body":
       "At F&F Traducciones (also searched as FyF Traducciones) we provide professional English-Spanish translation and interpretation for businesses and individuals. If you need a translator in Guatemala, El Salvador, Costa Rica, Panama, or elsewhere in Central America, we can help with document translation, event interpretation, and content localization.",
     "seo.li1": "Translation of legal, financial, medical, technical, and corporate documents",
