@@ -448,6 +448,21 @@ textarea {
   padding-top: 1.5rem;
 }
 
+.seo-region h2 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.seo-region .lede {
+  margin-top: 1.35rem;
+}
+
+@media (max-width: 640px) {
+  .seo-region .lede {
+    margin-top: 1.75rem;
+  }
+}
+
 .seo-list {
   margin: 1.35rem 0 0;
   padding: 0;
