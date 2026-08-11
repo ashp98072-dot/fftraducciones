@@ -440,6 +440,10 @@ textarea {
   min-height: calc(100vh - 160px);
 }
 
+#cotizacion {
+  scroll-margin-top: 90px;
+}
+
 .home-preview {
   padding-top: 1rem;
 }
