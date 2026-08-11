@@ -109,9 +109,9 @@ textarea {
   object-fit: contain;
   background: #fff;
   border-radius: 14px;
-  border: 1px solid rgba(42, 111, 173, 0.22);
-  padding: 0.35rem 0.55rem;
-  box-shadow: 0 6px 18px rgba(15, 61, 110, 0.1);
+  border: 1px solid rgba(11, 31, 51, 0.12);
+  padding: 0.3rem 0.5rem;
+  box-shadow: 0 6px 18px rgba(11, 31, 51, 0.06);
 }
 
 .brand-text {
@@ -402,6 +402,17 @@ textarea {
   background: var(--sun);
 }
 
+/* Single-page anchor navigation: offset scroll so the sticky header
+   never covers the top of a section when jumping via nav links. */
+#inicio,
+#nosotros,
+#servicios,
+#cotizacion,
+#preguntas-frecuentes,
+#contacto {
+  scroll-margin-top: 84px;
+}
+
 /* Inner pages */
 .page-hero {
   padding: 3.5rem 0 1rem;
@@ -440,12 +451,87 @@ textarea {
   min-height: calc(100vh - 160px);
 }
 
-#cotizacion {
-  scroll-margin-top: 90px;
-}
-
 .home-preview {
   padding-top: 1rem;
+}
+
+.seo-region {
+  padding-top: 1.5rem;
+}
+
+.seo-region h2 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.seo-region .lede {
+  margin-top: 1.35rem;
+}
+
+@media (max-width: 640px) {
+  .seo-region .lede {
+    margin-top: 1.75rem;
+  }
+}
+
+.seo-list {
+  margin: 1.35rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.seo-list li {
+  position: relative;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.seo-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--leaf);
+}
+
+.faq {
+  padding-top: 1rem;
+}
+
+.faq-list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  border: 1px solid rgba(11, 31, 51, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 0.85rem 1rem;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--ink);
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item p {
+  margin: 0.7rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.96rem;
 }
 
 .preview-grid {
@@ -1017,4 +1103,33 @@ a.contact-card:hover {
     height: 78px;
     max-width: 200px;
   }
+}
+
+
+.wa-float {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  z-index: 60;
+  width: 3.4rem;
+  height: 3.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 10px 28px rgba(18, 70, 32, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wa-float:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 14px 32px rgba(18, 70, 32, 0.42);
+  color: #fff;
+}
+
+.wa-float svg {
+  width: 1.65rem;
+  height: 1.65rem;
 }

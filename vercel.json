@@ -12,5 +12,11 @@
       ]
     }
   ],
+  "redirects": [
+    { "source": "/nosotros.html", "destination": "/#nosotros", "permanent": true },
+    { "source": "/servicios.html", "destination": "/#servicios", "permanent": true },
+    { "source": "/cotizacion.html", "destination": "/#cotizacion", "permanent": true },
+    { "source": "/contacto.html", "destination": "/#contacto", "permanent": true }
+  ],
   "rewrites": []
 }
