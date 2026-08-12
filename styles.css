@@ -790,6 +790,11 @@ textarea {
   font-weight: 600;
 }
 
+.form-note.is-error {
+  color: #b3261e;
+  font-weight: 600;
+}
+
 /* Contact */
 .contact-grid {
   display: grid;

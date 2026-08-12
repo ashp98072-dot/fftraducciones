@@ -261,7 +261,9 @@
           </ul>
         </div>
 
-        <form class="quote-form" id="quoteForm" novalidate>
+        <form class="quote-form" id="quoteForm" action="https://formspree.io/f/xaewokwd" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nueva solicitud de cotización - F&amp;F Traducciones" />
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
           <div class="field">
             <label for="name" data-i18n="form.name">Nombre completo</label>
             <input id="name" name="name" type="text" required autocomplete="name" />
@@ -307,7 +309,7 @@
             <textarea id="message" name="message" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-block" data-i18n="form.submit">Solicitar cotización</button>
-          <p class="form-note" id="formNote" data-i18n="form.note">Al enviar se abrirá su correo con el mensaje listo para fyftraducciones@gmail.com.</p>
+          <p class="form-note" id="formNote" data-i18n="form.note">Enviaremos su solicitud directamente a nuestro equipo. Le responderemos a la brevedad.</p>
         </form>
       </div>
     </section>

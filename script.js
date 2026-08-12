@@ -71,8 +71,10 @@ const translations = {
     "form.service.editing": "Corrección / Edición",
     "form.message": "Mensaje o detalles del proyecto",
     "form.submit": "Solicitar cotización",
-    "form.note": "Al enviar se abrirá su correo con el mensaje listo para fyftraducciones@gmail.com.",
-    "form.success": "Listo. Se abrió su cliente de correo con la cotización. Si no se abrió, escríbanos a fyftraducciones@gmail.com.",
+    "form.note": "Enviaremos su solicitud directamente a nuestro equipo. Le responderemos a la brevedad.",
+    "form.success": "Listo. Su solicitud fue enviada. Le responderemos pronto a su correo.",
+    "form.sending": "Enviando…",
+    "form.error": "No se pudo enviar. Intente de nuevo o escríbanos a fyftraducciones@gmail.com.",
     "contact.label": "Contacto",
     "contact.title": "Contáctenos",
     "contact.body":
@@ -165,8 +167,10 @@ const translations = {
     "form.service.editing": "Proofreading / Editing",
     "form.message": "Project details",
     "form.submit": "Request a quote",
-    "form.note": "Submitting opens your email client with a message ready for fyftraducciones@gmail.com.",
-    "form.success": "Done. Your email app opened with the quote request. If it did not, write to fyftraducciones@gmail.com.",
+    "form.note": "We'll send your request straight to our team. We'll get back to you shortly.",
+    "form.success": "Done. Your request was sent. We'll reply to your email shortly.",
+    "form.sending": "Sending…",
+    "form.error": "Something went wrong. Please try again or email fyftraducciones@gmail.com.",
     "contact.label": "Contact",
     "contact.title": "Contact us",
     "contact.body":
@@ -270,15 +274,41 @@ if (sections.length && "IntersectionObserver" in window) {
 }
 
 if (form) {
+  const submitBtn = form.querySelector('button[type="submit"]');
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
     }
-    formNote.textContent = translations[currentLang]["form.success"];
-    formNote.classList.add("is-success");
-    form.reset();
+
+    formNote.classList.remove("is-success", "is-error");
+    formNote.textContent = translations[currentLang]["form.sending"];
+    if (submitBtn) submitBtn.disabled = true;
+
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: { Accept: "application/json" },
+    })
+      .then((response) => {
+        if (response.ok) {
+          formNote.textContent = translations[currentLang]["form.success"];
+          formNote.classList.add("is-success");
+          form.reset();
+        } else {
+          formNote.textContent = translations[currentLang]["form.error"];
+          formNote.classList.add("is-error");
+        }
+      })
+      .catch(() => {
+        formNote.textContent = translations[currentLang]["form.error"];
+        formNote.classList.add("is-error");
+      })
+      .finally(() => {
+        if (submitBtn) submitBtn.disabled = false;
+      });
   });
 }
 
