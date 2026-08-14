@@ -6,7 +6,7 @@ const translations = {
     "nav.services": "Servicios",
     "nav.quote": "Cotización",
     "nav.contact": "Contacto",
-    "hero.title": "Traductores e Interpretación Inglés ↔ Español",
+    "hero.title": "Traductores e Interpretes Inglés ↔ Español",
     "hero.subtitle":
       "Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.",
     "hero.cta": "Solicitar cotización",
@@ -137,7 +137,7 @@ const translations = {
     "services.s1.title": "Document Translation",
     "services.s1.body": "Legal, financial, medical, corporate, and literary document translation.",
     "services.s2.title": "Simultaneous & Consecutive Interpretation",
-    "services.s2.body": "Conferences, business meetings, events, and webinars.",
+    "services.s2.body": "For conferences, business meetings, events, and webinars.",
     "services.s3.title": "Localization",
     "services.s3.body":
       "Website, software, and marketing material adaptation for specific target markets.",
