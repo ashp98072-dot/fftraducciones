@@ -25,11 +25,11 @@ const translations = {
       "Sí. Atendemos desde Guatemala y trabajamos con clientes en El Salvador, Costa Rica, Panamá, Belice, Honduras y Nicaragua.",
     "faq.q3": "¿Cómo solicito una cotización?",
     "faq.a3":
-      "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com, llamar al +502 2509-0049 o escribir por WhatsApp al 4892-7971. Le responderemos con una propuesta clara.",
+      "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com, llamar al +502 2509-0049 o escribir por WhatsApp al +502 4892-7971. Le responderemos con una propuesta clara.",
     "contact.callLabel": "Teléfono",
     "contact.callNote": "Llamadas · Guatemala",
     "contact.phoneLabel": "WhatsApp",
-    "contact.phoneNote": "Guatemala · 4892-7971",
+    "contact.phoneNote": "Guatemala · +502 4892-7971",
     "contact.addressLabel": "Dirección",
     "contact.address":
       "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Ciudad de Guatemala 01013",
@@ -119,11 +119,11 @@ const translations = {
       "Yes. We operate from Guatemala and work with clients in El Salvador, Costa Rica, Panama, Belize, Honduras, and Nicaragua.",
     "faq.q3": "How do I request a quote?",
     "faq.a3":
-      "Use the quote form, email fyftraducciones@gmail.com, call +502 2509-0049, or message on WhatsApp at 4892-7971. We'll reply with a clear proposal.",
+      "Use the quote form, email fyftraducciones@gmail.com, call +502 2509-0049, or message on WhatsApp at +502 4892-7971. We'll reply with a clear proposal.",
     "contact.callLabel": "Phone",
     "contact.callNote": "Calls · Guatemala",
     "contact.phoneLabel": "WhatsApp",
-    "contact.phoneNote": "Guatemala · 4892-7971",
+    "contact.phoneNote": "Guatemala · +502 4892-7971",
     "contact.addressLabel": "Address",
     "contact.address":
       "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Guatemala City 01013",
