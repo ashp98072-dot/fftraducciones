@@ -671,15 +671,6 @@ textarea {
   box-shadow: 0 16px 36px rgba(11, 31, 51, 0.08);
 }
 
-.service-num {
-  display: block;
-  margin-bottom: 1rem;
-  color: var(--leaf);
-  font-family: var(--font-display);
-  font-weight: 650;
-  font-size: 1.1rem;
-}
-
 .service h3 {
   margin: 0 0 0.55rem;
   font-size: 1.15rem;
