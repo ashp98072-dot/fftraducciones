@@ -89,7 +89,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
-  min-height: 96px;
+  min-height: 112px;
 }
 
 .brand {
@@ -103,8 +103,8 @@ textarea {
 
 .brand-logo {
   width: auto;
-  height: clamp(52px, 12vw, 78px);
-  max-width: min(52vw, 180px);
+  height: clamp(60px, 13vw, 92px);
+  max-width: min(58vw, 210px);
   min-width: 0;
   object-fit: contain;
   background: #fff;
@@ -134,11 +134,6 @@ textarea {
   white-space: nowrap;
 }
 
-.brand-footer .brand-logo {
-  height: 64px;
-  max-width: 160px;
-}
-
 @media (min-width: 640px) {
   .brand-text {
     display: flex;
@@ -147,7 +142,7 @@ textarea {
 
 @media (max-width: 479px) {
   .header-inner {
-    min-height: 80px;
+    min-height: 92px;
   }
 
   .lang-globe {
@@ -872,8 +867,9 @@ a.contact-card:hover {
 }
 
 .brand-footer .brand-logo {
-  height: 58px;
-  min-width: 120px;
+  height: 84px;
+  min-width: 150px;
+  max-width: 220px;
 }
 
 .footer-tagline {
@@ -1106,8 +1102,8 @@ a.contact-card:hover {
 
 @media (min-width: 1100px) {
   .brand-logo {
-    height: 78px;
-    max-width: 200px;
+    height: 100px;
+    max-width: 230px;
   }
 
   .contact-grid {
