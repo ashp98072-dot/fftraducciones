@@ -23,7 +23,7 @@ const translations = {
     "faq.q2": "¿Atienden en Guatemala y otros países?",
     "faq.a2":
       "Sí. Atendemos desde Guatemala y trabajamos con clientes en El Salvador, Costa Rica, Panamá, Belice, Honduras y Nicaragua.",
-    "faq.q3": "¿Cómo solicito una cotización de traducción?",
+    "faq.q3": "¿Cómo solicito una cotización?",
     "faq.a3":
       "Puede usar el formulario de cotización, escribir a fyftraducciones@gmail.com, llamar al +502 2509-0049 o escribir por WhatsApp al 4892-7971. Le responderemos con una propuesta clara.",
     "contact.callLabel": "Teléfono",
@@ -51,11 +51,11 @@ const translations = {
     "services.s4.body": "Revisión exhaustiva para garantizar la perfección de sus textos.",
     "quote.label": "Cotización",
     "quote.title": "¿Tiene un proyecto en mente?",
-    "quote.body": "Solicite su cotización. Le responderemos con una propuesta clara.",
-    "quote.p1": "Respuesta ágil por correo, teléfono o WhatsApp",
+    "quote.body": "Solicite una cotización, le responderemos en breve.",
+    "quote.p1": "Respuesta por correo, teléfono o WhatsApp",
     "quote.p2": "Cobertura en toda Centroamérica",
     "quote.p3": "Inglés ↔ Español",
-    "form.name": "Nombre completo",
+    "form.name": "Nombre",
     "form.email": "Correo electrónico",
     "form.phone": "Teléfono / WhatsApp",
     "form.country": "País",
@@ -117,7 +117,7 @@ const translations = {
     "faq.q2": "Do you serve Guatemala and other countries?",
     "faq.a2":
       "Yes. We operate from Guatemala and work with clients in El Salvador, Costa Rica, Panama, Belize, Honduras, and Nicaragua.",
-    "faq.q3": "How do I request a translation quote?",
+    "faq.q3": "How do I request a quote?",
     "faq.a3":
       "Use the quote form, email fyftraducciones@gmail.com, call +502 2509-0049, or message on WhatsApp at 4892-7971. We'll reply with a clear proposal.",
     "contact.callLabel": "Phone",
@@ -145,8 +145,8 @@ const translations = {
     "services.s4.body": "Thorough review to ensure absolute accuracy and flow in your documents.",
     "quote.label": "Get a Quote",
     "quote.title": "Have a project in mind?",
-    "quote.body": "Request your quote today. We'll reply with a clear proposal.",
-    "quote.p1": "Fast response by email, phone, or WhatsApp",
+    "quote.body": "Request a quote and we'll get back to you shortly.",
+    "quote.p1": "Response by email, phone, or WhatsApp",
     "quote.p2": "Coverage across all of Central America",
     "quote.p3": "English ↔ Spanish",
     "form.name": "Full Name",
