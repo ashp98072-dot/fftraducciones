@@ -642,6 +642,16 @@ textarea {
   background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.55), transparent);
 }
 
+.about .lede {
+  margin-top: 1.1rem;
+}
+
+@media (max-width: 640px) {
+  .about .lede {
+    margin-top: 1.4rem;
+  }
+}
+
 /* Services */
 .service-grid {
   display: grid;
