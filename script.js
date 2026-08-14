@@ -32,7 +32,7 @@ const translations = {
     "contact.phoneNote": "Guatemala · +502 4892-7971",
     "contact.addressLabel": "Dirección",
     "contact.address":
-      "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Ciudad de Guatemala 01013",
+      "16 Calle 15-80 Zona 13, Edificio Cobira, Ciudad de Guatemala 01013",
     "contact.addressNote": "Traductor en Guatemala · Cobertura Centroamérica",
     "about.label": "Sobre Nosotros",
     "about.title": "Conectamos negocios y personas a través del lenguaje",
@@ -43,7 +43,7 @@ const translations = {
     "services.s1.title": "Traducción de documentos",
     "services.s1.body": "Traducción de documentos jurídicos, financieros, médicos, corporativos y literarios.",
     "services.s2.title": "Interpretación Simultánea y Consecutiva",
-    "services.s2.body": "Para conferencias, reuniones de negocios, eventos y seminarios web.",
+    "services.s2.body": "Conferencias, reuniones de negocios, eventos y seminarios web.",
     "services.s3.title": "Localización",
     "services.s3.body":
       "Adaptación de sitios web, software y material de marketing para mercados específicos.",
@@ -126,7 +126,7 @@ const translations = {
     "contact.phoneNote": "Guatemala · +502 4892-7971",
     "contact.addressLabel": "Address",
     "contact.address":
-      "16 Calle 15-80 Zona 13, Apt. 6D, Edificio Cobira 2, Guatemala City 01013",
+      "16 Calle 15-80 Zona 13, Edificio Cobira, Guatemala City 01013",
     "contact.addressNote": "Translator in Guatemala · Central America coverage",
     "about.label": "About Us",
     "about.title": "Connecting businesses and people through language",
@@ -137,7 +137,7 @@ const translations = {
     "services.s1.title": "Document Translation",
     "services.s1.body": "Legal, financial, medical, corporate, and literary document translation.",
     "services.s2.title": "Simultaneous & Consecutive Interpretation",
-    "services.s2.body": "For conferences, business meetings, events, and webinars.",
+    "services.s2.body": "Conferences, business meetings, events, and webinars.",
     "services.s3.title": "Localization",
     "services.s3.body":
       "Website, software, and marketing material adaptation for specific target markets.",
