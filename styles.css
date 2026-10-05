@@ -1148,3 +1148,25 @@ a.contact-card:hover {
   width: 1.65rem;
   height: 1.65rem;
 }
+
+/* Keyboard focus remains visible on light and dark backgrounds. */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--leaf-deep);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--foam);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
