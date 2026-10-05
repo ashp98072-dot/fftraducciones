@@ -176,9 +176,9 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <h1 data-i18n="hero.title">Traductores e Interpretes Inglés ↔ Español</h1>
+          <h1 data-i18n="hero.title">Traductores e Intérpretes Profesionales en Guatemala</h1>
           <p class="lede" data-i18n="hero.subtitle">
-            Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.
+            Traducción e interpretación inglés ↔ español para empresas e individuos en Guatemala y toda Centroamérica.
           </p>
         </div>
         <div class="hero-panel" aria-hidden="true">
@@ -261,12 +261,12 @@
           <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
           <div class="field">
             <label for="name" data-i18n="form.name">Nombre</label>
-            <input id="name" name="name" type="text" autocomplete="name" />
+            <input id="name" name="name" type="text" autocomplete="name" required />
           </div>
           <div class="field-row">
             <div class="field">
               <label for="email" data-i18n="form.email">Correo electrónico</label>
-              <input id="email" name="email" type="email" autocomplete="email" />
+              <input id="email" name="email" type="email" autocomplete="email" required />
             </div>
             <div class="field">
               <label for="phone" data-i18n="form.phone">Teléfono / WhatsApp</label>
@@ -290,7 +290,7 @@
             </div>
             <div class="field">
               <label for="service" data-i18n="form.service">Tipo de servicio</label>
-              <select id="service" name="service">
+              <select id="service" name="service" required>
                 <option value="" data-i18n="form.service.placeholder">Seleccione…</option>
                 <option value="translation" data-i18n="form.service.translation">Traducción</option>
                 <option value="interpretation" data-i18n="form.service.interpretation">Interpretación</option>
@@ -301,7 +301,7 @@
           </div>
           <div class="field">
             <label for="message" data-i18n="form.message">Mensaje o detalles del proyecto</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <textarea id="message" name="message" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-block" data-i18n="form.submit">Solicitar cotización</button>
           <p class="form-note" id="formNote" data-i18n="form.note">Enviaremos su solicitud directamente a nuestro equipo. Le responderemos a la brevedad.</p>

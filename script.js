@@ -6,9 +6,9 @@ const translations = {
     "nav.services": "Servicios",
     "nav.quote": "Cotización",
     "nav.contact": "Contacto",
-    "hero.title": "Traductores e Interpretes Inglés ↔ Español",
+    "hero.title": "Traductores e Intérpretes Profesionales en Guatemala",
     "hero.subtitle":
-      "Soluciones lingüísticas precisas y confiables para empresas e individuos en toda Centroamérica.",
+      "Traducción e interpretación inglés ↔ español para empresas e individuos en Guatemala y toda Centroamérica.",
     "hero.cta": "Solicitar cotización",
     "hero.secondary": "Ver servicios",
     "hero.panel": "Precisión técnica, cultural y legal en cada proyecto.",
@@ -100,9 +100,9 @@ const translations = {
     "nav.services": "Services",
     "nav.quote": "Get a Quote",
     "nav.contact": "Contact",
-    "hero.title": "English ↔ Spanish Translation & Interpretation",
+    "hero.title": "Professional Translators & Interpreters in Guatemala",
     "hero.subtitle":
-      "Accurate and reliable linguistic solutions for businesses and individuals across all of Central America.",
+      "English ↔ Spanish translation and interpretation for businesses and individuals in Guatemala and across Central America.",
     "hero.cta": "Request a quote",
     "hero.secondary": "View services",
     "hero.panel": "Technical, cultural, and legal accuracy on every project.",
@@ -190,8 +190,26 @@ const translations = {
 };
 
 const pageTitle = {
-  es: "F&F Traducciones | Traductor e Intérprete Inglés Español Centroamérica",
-  en: "F&F Traducciones | English-Spanish Translator & Interpreter Central America",
+  "inicio": {
+    "es": "F&F Traducciones | Traductores e Intérpretes en Guatemala",
+    "en": "F&F Traducciones | Translators & Interpreters in Guatemala"
+  },
+  "nosotros": {
+    "es": "Sobre Nosotros | Empresa de Traducciones Centroamérica | F&F",
+    "en": "About Us | Central American Translation Company | F&F"
+  },
+  "servicios": {
+    "es": "Servicios de Traducción e Interpretación Inglés-Español | F&F",
+    "en": "English-Spanish Translation & Interpretation Services | F&F"
+  },
+  "cotizacion": {
+    "es": "Cotización de Traducción e Interpretación | F&F Traducciones",
+    "en": "Translation & Interpretation Quote | F&F Traducciones"
+  },
+  "contacto": {
+    "es": "Contacto | Traductor Inglés Español Centroamérica | F&F",
+    "en": "Contact | English-Spanish Translator in Central America | F&F"
+  }
 };
 
 const storedLang = localStorage.getItem("ff-lang");
@@ -217,7 +235,8 @@ function applyTranslations(lang) {
   });
 
   langLabel.textContent = lang === "es" ? "EN" : "ES";
-  document.title = pageTitle[lang];
+  const title = pageTitle[document.body.dataset.page]?.[lang];
+  if (title) document.title = title;
   localStorage.setItem("ff-lang", lang);
 }
 
