@@ -1170,3 +1170,58 @@ button:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+/* Service landing content uses the site's existing type and color palette. */
+.breadcrumbs {
+  margin-bottom: 1.5rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs li + li::before {
+  content: "/";
+  margin-right: 0.6rem;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.seo-block + .seo-block {
+  margin-top: 2.5rem;
+}
+
+.seo-content h2 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  line-height: 1.25;
+}
+
+.seo-content p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.service-links {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.service-links a,
+.seo-context a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
