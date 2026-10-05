@@ -654,6 +654,8 @@ textarea {
 }
 
 .service {
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 1.5rem 1.4rem;
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.72);
@@ -1224,4 +1226,16 @@ button:focus-visible {
 .seo-context a {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+/* Keep the full contact address readable within the existing card layout. */
+.contact-details .contact-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 640px) {
+  .contact-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }

@@ -10,8 +10,8 @@
   <link rel="canonical" href="https://www.fyftraducciones.com/interpretacion-guatemala.html" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="es_LA" />
-  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale" content="es_LA" data-i18n-content="metadata.locale" />
+  <meta property="og:locale:alternate" content="en_US" data-i18n-content="metadata.alternateLocale" />
   <meta property="og:site_name" content="F&amp;F Traducciones Centroamérica" />
   <meta property="og:title" content="Interpretación en Guatemala | Intérpretes Profesionales | F&amp;F" data-page-title />
   <meta property="og:description" content="Interpretación inglés ↔ español en Guatemala para conferencias, reuniones y seminarios web. Conozca las modalidades simultánea y consecutiva y cotice." data-i18n-content="interpretacion-guatemala.description" />
@@ -51,6 +51,9 @@
         },
         "breadcrumb": {
           "@id": "https://www.fyftraducciones.com/interpretacion-guatemala.html#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.fyftraducciones.com/interpretacion-guatemala.html#service"
         }
       },
       {
@@ -76,6 +79,47 @@
             "item": "https://www.fyftraducciones.com/interpretacion-guatemala.html"
           }
         ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.fyftraducciones.com/interpretacion-guatemala.html#service",
+        "name": "Interpretación simultánea y consecutiva",
+        "description": "Interpretación inglés ↔ español para conferencias, reuniones de negocios, eventos y seminarios web.",
+        "serviceType": "Interpretación simultánea y consecutiva",
+        "provider": {
+          "@id": "https://www.fyftraducciones.com/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Belize"
+          },
+          {
+            "@type": "Country",
+            "name": "Costa Rica"
+          },
+          {
+            "@type": "Country",
+            "name": "El Salvador"
+          },
+          {
+            "@type": "Country",
+            "name": "Guatemala"
+          },
+          {
+            "@type": "Country",
+            "name": "Honduras"
+          },
+          {
+            "@type": "Country",
+            "name": "Nicaragua"
+          },
+          {
+            "@type": "Country",
+            "name": "Panama"
+          }
+        ],
+        "url": "https://www.fyftraducciones.com/interpretacion-guatemala.html"
       }
     ]
   }
@@ -128,7 +172,7 @@
         <p data-i18n="interpretacion-guatemala.intro" class="lede">Cuando una conversación reúne a personas que hablan inglés y español, la interpretación permite seguir las ideas y participar. La modalidad adecuada depende del ritmo, la duración y el propósito de la actividad.</p>
         <div class="page-cta">
           <a href="cotizacion.html" class="btn" data-i18n="hero.cta">Solicitar cotización</a>
-          <a href="https://wa.me/50248927971" class="btn btn-ghost" data-i18n="landing.whatsapp">Consultar por WhatsApp</a>
+          <a href="https://wa.me/50248927971" class="btn btn-ghost" data-i18n="landing.whatsapp" data-conversion="whatsapp" data-conversion-location="hero">Consultar por WhatsApp</a>
         </div>
       </div>
     </section>
@@ -161,9 +205,10 @@
           <p data-i18n="ig.quote.body">Solicite una cotización con la fecha, el tema y la modalidad del evento o reunión. Si también necesita traducir documentos relacionados, indíquelo para revisar ambos servicios en su consulta.</p>
         </section>
       <div class="seo-block">
+        <p><a href="contacto.html" class="text-link" data-i18n="landing.contactLink">Consultar datos de contacto y dirección</a></p>
         <div class="page-cta">
           <a href="cotizacion.html" class="btn" data-i18n="hero.cta">Solicitar cotización</a>
-          <a href="https://wa.me/50248927971" class="btn btn-ghost" data-i18n="landing.whatsapp">Consultar por WhatsApp</a>
+          <a href="https://wa.me/50248927971" class="btn btn-ghost" data-i18n="landing.whatsapp" data-conversion="whatsapp" data-conversion-location="content">Consultar por WhatsApp</a>
         </div>
       </div>
     </div>
@@ -174,19 +219,19 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="brand brand-footer">
-            <img src="/assets/logo.svg" alt="F&amp;F Traducciones - empresa de traducción e interpretación Centroamérica" class="brand-logo" width="280" height="140" />
+            <img src="/assets/logo.svg" alt="F&amp;F Traducciones" class="brand-logo" width="280" height="140" />
           </a>
           <p class="footer-tagline" data-i18n="footer.tagline">Soluciones lingüísticas precisas para empresas e individuos en toda Centroamérica.</p>
           <div class="footer-chips">
             <span data-i18n="footer.chipLang">Inglés ↔ Español</span>
-            <span data-i18n="footer.chipQuote">Cotización gratuita</span>
+            <span data-i18n="footer.chipQuote">Cotización</span>
           </div>
         </div>
 
         <div class="footer-col">
           <h3 data-i18n="footer.servicesTitle">Servicios</h3>
           <ul class="footer-list">
-            <li data-i18n="services.s1.title">Traducción de documentos</li>
+            <li data-i18n="services.s1.title">Traducción Documental</li>
             <li data-i18n="services.s2.title">Interpretación Simultánea y Consecutiva</li>
             <li data-i18n="services.s3.title">Localización</li>
             <li data-i18n="services.s4.title">Corrección de Estilo y Edición</li>
@@ -199,7 +244,7 @@
             <a href="index.html" data-i18n="nav.home">Inicio</a>
             <a href="nosotros.html" data-i18n="nav.about">Sobre Nosotros</a>
             <a href="servicios.html" data-i18n="nav.services">Servicios</a>
-            <a href="index.html#cotizacion" data-i18n="nav.quote">Cotización</a>
+            <a href="cotizacion.html" data-i18n="nav.quote">Cotización</a>
             <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
           </nav>
         </div>
@@ -207,21 +252,29 @@
         <div class="footer-col">
           <h3 data-i18n="footer.contactTitle">Contacto</h3>
           <ul class="footer-contact">
-              <li>
+            <li>
               <span data-i18n="contact.emailLabel">Correo</span>
-              <a href="mailto:fyftraducciones@gmail.com">fyftraducciones@gmail.com</a>
+              <a href="mailto:fyftraducciones@gmail.com" data-conversion="email" data-conversion-location="footer">fyftraducciones@gmail.com</a>
             </li>
-              <li>
+            <li>
+              <span data-i18n="contact.callLabel">Teléfono</span>
+              <a href="tel:+50225090049" data-conversion="phone" data-conversion-location="footer">+502 2509-0049</a>
+            </li>
+            <li>
+              <span data-i18n="contact.phoneLabel">WhatsApp</span>
+              <a href="https://wa.me/50248927971" target="_blank" rel="noopener noreferrer" data-conversion="whatsapp" data-conversion-location="footer">+502 4892-7971</a>
+            </li>
+            <li>
               <span data-i18n="contact.facebookLabel">Facebook</span>
               <a href="https://www.facebook.com/profile.php?id=100041234743629" target="_blank" rel="noopener noreferrer">F&amp;F Traducciones</a>
             </li>
-              <li>
+            <li>
               <span data-i18n="footer.coverageLabel">Cobertura</span>
               <strong data-i18n="footer.countries">Belice, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua y Panamá</strong>
             </li>
-              <li>
+            <li>
               <span data-i18n="footer.responseLabel">Atención</span>
-              <strong data-i18n="footer.response">Respuesta ágil por correo o Facebook</strong>
+              <strong data-i18n="footer.response">Por correo, teléfono y WhatsApp</strong>
             </li>
           </ul>
         </div>
@@ -229,7 +282,6 @@
 
       <div class="footer-bottom">
         <p data-i18n="footer.copy">© 2026 F&amp;F Traducciones Centroamérica. Todos los derechos reservados.</p>
-        <p class="footer-note" data-i18n="footer.note">Sitio informativo · Sin pasarela de pagos</p>
       </div>
     </div>
   </footer>

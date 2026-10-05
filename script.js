@@ -1,5 +1,15 @@
 const translations = {
   es: {
+    "contact.pageBody": "Cuéntenos qué necesita traducir o interpretar, en qué idiomas y para qué fecha. Puede contactarnos por correo, teléfono o WhatsApp desde Ciudad de Guatemala.",
+    "landing.contactLink": "Consultar datos de contacto y dirección",
+    "contacto.description": "Contacte a F&F Traducciones en Ciudad de Guatemala. Consulte por correo, teléfono o WhatsApp sobre traducción e interpretación inglés ↔ español en Centroamérica.",
+    "cotizacion.description": "Solicita cotización gratuita de traducción o interpretación inglés-español. Atención para empresas e individuos en Centroamérica.",
+    "inicio.description": "F&F (FyF) Traducciones: traductores e intérpretes en Guatemala y Centroamérica. Traducción e interpretación inglés-español para empresas e individuos. Solicite su cotización.",
+    "nosotros.description": "Conoce a F&F Traducciones, empresa de traducción e interpretación inglés-español con cobertura en toda Centroamérica.",
+    "servicios.description": "Servicios de traducción documental, interpretación simultánea, localización y corrección de estilo. Empresa de traducciones en Centroamérica.",
+    "metadata.locale": "es_LA",
+    "metadata.alternateLocale": "en_US",
+    "metadata.language": "Spanish",
     "landing.homeLink": "Conozca nuestros servicios de traducción e interpretación desde Guatemala",
     "landing.simultaneousLink": "Interpretación simultánea",
     "landing.interpretingLink": "Servicios de interpretación",
@@ -167,6 +177,16 @@ const translations = {
     "footer.copy": "© 2026 F&F Traducciones Centroamérica. Todos los derechos reservados.",
   },
   en: {
+    "contact.pageBody": "Tell us what you need translated or interpreted, in which languages and by what date. Contact us by email, phone or WhatsApp from Guatemala City.",
+    "landing.contactLink": "View contact details and address",
+    "contacto.description": "Contact F&F Traducciones in Guatemala City. Ask by email, phone or WhatsApp about English ↔ Spanish translation and interpreting in Central America.",
+    "cotizacion.description": "Request a free quote for translation and interpreting services in Central America. Tell us about your project and we will respond promptly.",
+    "inicio.description": "F&F (FyF) Traducciones: translators and interpreters in Guatemala and Central America. English-Spanish translation and interpreting for businesses and individuals. Request a quote.",
+    "nosotros.description": "Meet F&F Traducciones, an English-Spanish translation and interpreting company serving all of Central America.",
+    "servicios.description": "Document translation, simultaneous interpreting, localization and proofreading. Translation services in Central America.",
+    "metadata.locale": "en_US",
+    "metadata.alternateLocale": "es_LA",
+    "metadata.language": "English",
     "landing.homeLink": "Explore our translation and interpreting services from Guatemala",
     "landing.simultaneousLink": "Simultaneous interpreting",
     "landing.interpretingLink": "Interpreting services",
@@ -353,8 +373,8 @@ const pageTitle = {
     "en": "Translation & Interpretation Quote | F&F Traducciones"
   },
   "contacto": {
-    "es": "Contacto | Traductor Inglés Español Centroamérica | F&F",
-    "en": "Contact | English-Spanish Translator in Central America | F&F"
+    "es": "Contacto en Guatemala | F&F Traducciones",
+    "en": "Contact in Guatemala | F&F Traducciones"
   },
   "traductores-guatemala": {
     "es": "Traductores e Intérpretes en Guatemala | F&F Traducciones",
