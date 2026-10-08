@@ -267,21 +267,21 @@
           </ul>
         </div>
 
-        <form class="quote-form" id="quoteForm" action="https://formspree.io/f/xaewokwd" method="POST" novalidate data-conversion="quote-submit" data-conversion-location="quote-form">
+        <form class="quote-form" id="quoteForm" action="/api/cotizacion" method="POST" novalidate data-conversion="quote-submit" data-conversion-location="quote-form">
           <input type="hidden" name="_subject" value="Nueva solicitud de cotización - F&amp;F Traducciones" />
           <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
           <div class="field">
             <label for="name" data-i18n="form.name">Nombre</label>
-            <input id="name" name="name" type="text" autocomplete="name" required />
+            <input id="name" name="name" type="text" autocomplete="name" required maxlength="150" />
           </div>
           <div class="field-row">
             <div class="field">
               <label for="email" data-i18n="form.email">Correo electrónico</label>
-              <input id="email" name="email" type="email" autocomplete="email" required />
+              <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" />
             </div>
             <div class="field">
               <label for="phone" data-i18n="form.phone">Teléfono / WhatsApp</label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+              <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="50" />
             </div>
           </div>
           <div class="field-row">
@@ -312,7 +312,7 @@
           </div>
           <div class="field">
             <label for="message" data-i18n="form.message">Mensaje o detalles del proyecto</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea id="message" name="message" rows="4" required maxlength="5000"></textarea>
           </div>
           <button type="submit" class="btn btn-block" data-i18n="form.submit">Solicitar cotización</button>
           <p class="form-note" id="formNote" data-i18n="form.note">Enviaremos su solicitud directamente a nuestro equipo. Le responderemos a la brevedad.</p>

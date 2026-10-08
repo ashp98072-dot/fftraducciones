@@ -490,6 +490,7 @@ if (form) {
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+    if (submitBtn?.disabled) return;
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
@@ -501,7 +502,7 @@ if (form) {
 
     fetch(form.action, {
       method: "POST",
-      body: new FormData(form),
+      body: new URLSearchParams(new FormData(form)),
       headers: { Accept: "application/json" },
     })
       .then((response) => {
