@@ -12,5 +12,10 @@
       ]
     }
   ],
-  "rewrites": []
+  "rewrites": [],
+  "functions": {
+    "api/cotizacion.js": {
+      "maxDuration": 30
+    }
+  }
 }
